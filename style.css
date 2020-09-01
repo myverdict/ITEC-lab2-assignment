@@ -1,0 +1,154 @@
+p 
+{
+    font-size: 20px;
+}
+
+h1 
+{
+    color: darkblue;            /* Text color */
+    font-size: 40px;
+    text-align: center;            
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page-title 
+{
+    text-shadow: 4px 4px lightblue;
+}
+
+.section-header 
+{
+    background-color: lightcoral;
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    text-shadow: 3px 2px grey;
+}
+
+body 
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li 
+{
+    list-style-type: square;
+    padding: 5px;
+    margin: 5px;
+}
+
+#most-favorite-food 
+{
+    background-color: darkorchid;
+    text-decoration: underline;
+}
+
+.second-favorite 
+{
+    background-color: violet;
+}
+
+a 
+{
+    color: blueviolet;
+    text-decoration: none;
+    font-style: italic;
+}
+
+#favorite-movie-title 
+{
+    font-style: italic;
+    font-weight: bold;
+}
+
+#favorite-music-name 
+{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.favorite-section 
+{
+    background-color: lightsalmon;
+    border: 10px palevioletred double;
+	border-radius: 25px;
+    margin: 20px;
+    padding: 20px;                  /* Padding is between the border and the content */
+}
+
+#movie-background 
+{
+    background-color: lightyellow;
+    padding: 10px;
+	border-radius: 20px;
+}
+
+#musician-background 
+{
+    background-color: lightgreen;
+    padding: 10px;
+	border-radius: 20px;
+}
+
+img 
+{
+    max-width: 100%;            /* To make the images responsive */
+    height: auto;               /* To make the images responsive */
+	
+    /* display: block;             /* To center the image */
+    /* margin-left: auto;          /* To center the image */
+    /* margin-right: auto;         /* To center the image */
+	
+    padding: 20px;
+    width: 30%;
+}
+
+img:hover 
+{
+	filter: sepia(50%);
+}
+
+.favorite-image 
+{
+    border-radius: 30px;        /* Makes the borders of the images rounded */
+}
+
+table, tr, th, td 
+{
+    border: 10px solid blueviolet;
+    border-collapse: collapse;
+    padding: 10px;
+    margin-right: auto;         /* For centering the table */
+    margin-left: auto;          /* For centering the table */
+}
+
+th 
+{
+    background-color: orange;
+    color: white;
+}
+
+td 
+{
+    background-color: wheat;
+}
+
+.info-source 
+{
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
+
+footer
+{
+    float: right;
+    padding: 15px;
+    background-color: grey;
+    color: white;
+    font-style: italic;
+    margin: 10px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 2px;
+}
